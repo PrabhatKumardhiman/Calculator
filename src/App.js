@@ -64,7 +64,7 @@ function App() {
   return (
     <div className="container">
       <div className="calculator">
-        <h1 id="input">{input}</h1>
+        <h1 id="input" style={{overflow : "hidden", width : "280px"}}>{input}</h1>
         <div className="btn-row">
           <button className="btn" onClick={() => handleButtonClick("C")}>C</button>
           <button className="btn" onClick={() => handleButtonClick("<")}>&lt;</button>
